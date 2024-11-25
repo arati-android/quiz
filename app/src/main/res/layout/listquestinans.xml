@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="getData"
+            type="com.example.practcaltest.response.QuestionAnsData" />
+    </data>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/itemMyCard"
+    app:cardElevation="@dimen/_8sdp"
+    android:outlineAmbientShadowColor="@color/cardBlack"
+    android:outlineSpotShadowColor="@color/pink"
+    tools:targetApi="p"
+    android:id="@+id/cardMain"
+    app:cardBackgroundColor="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvQues"
+            style="@style/textViewQues"
+            android:layout_width="0dp"
+            android:text="@{`Q.` +getData.question}"
+            tools:text="Q. One of Donald Trump&#039;s 2016 Presidential Campaign promises was to build a border wall between the United States and Mexico."
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RGroup"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvQues">
+
+            <RadioButton
+               style="@style/textRadiobutton"
+                android:text="@string/right"
+                android:id="@+id/right"/>
+            <RadioButton
+                style="@style/textRadiobutton"
+                android:text="@string/wrong"
+                android:id="@+id/wrong"/>
+
+
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>
+</layout>

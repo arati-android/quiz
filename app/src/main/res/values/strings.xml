@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PractcalTest</string>
+    <string name="no">no</string>
+    <string name="okay">okay</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="right">True</string>
+    <string name="wrong">False</string>
+    <string name="quiz">Quiz</string>
+    <string name="_0">0</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="your_score">Your Score</string>
+    <string name="quiz_complete_successfully">Quiz Complete Successfully</string>
+    <string name="_5_10">5/10</string>
+</resources>
