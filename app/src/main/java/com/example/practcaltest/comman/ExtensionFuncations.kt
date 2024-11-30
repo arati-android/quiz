@@ -1,46 +1,10 @@
 package com.example.practcaltest.comman
 
-import android.R
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import android.content.res.Configuration
-import android.graphics.Rect
-import android.graphics.Typeface
-import android.net.Uri
-import android.os.Build
-import android.text.Editable
-import android.text.Selection
-import android.text.Spannable
-import android.text.SpannableString
-import android.text.Spanned
-import android.text.TextPaint
-import android.text.TextUtils
-import android.text.TextWatcher
-import android.text.method.LinkMovementMethod
-import android.text.style.ClickableSpan
-import android.util.Patterns
-import android.view.MotionEvent
-import android.view.View
-import android.view.ViewGroup
-import android.view.ViewTreeObserver
-import android.widget.EditText
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.TextView
-import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
-import com.example.practcaltest.BuildConfig
-import com.google.android.material.slider.RangeSlider
-import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.MultipartBody
-import okhttp3.RequestBody.Companion.asRequestBody
-import java.io.File
-import java.util.regex.Matcher
-import java.util.regex.Pattern
 
 /**
  * puts a key value pair in shared prefs if doesn't exists, otherwise updates value on given [key]

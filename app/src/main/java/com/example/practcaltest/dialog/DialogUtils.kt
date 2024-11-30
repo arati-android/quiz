@@ -1,6 +1,5 @@
-package com.giftshop.ahmedabad.dialog
+package com.example.practcaltest.dialog
 
-import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
@@ -10,7 +9,6 @@ import android.view.ViewGroup
 import android.view.Window
 import androidx.appcompat.app.AppCompatDialog
 import androidx.core.view.isVisible
-import com.example.practcaltest.R
 import com.example.practcaltest.databinding.CustomDialogWithButtonBinding
 
 object DialogUtils {

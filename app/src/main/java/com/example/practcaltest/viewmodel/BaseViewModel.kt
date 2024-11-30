@@ -6,7 +6,7 @@ import com.example.practcaltest.comman.Controller
 import com.example.practcaltest.comman.Utils
 import com.example.practcaltest.webservice.ResultWrapper
 import com.example.practcaltest.webservice.safeApiCall
-import com.giftshop.ahmedabad.dialog.DialogUtils
+import com.example.practcaltest.dialog.DialogUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
